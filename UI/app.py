@@ -4,6 +4,8 @@ import torch.nn as nn
 from torchvision import models, transforms
 from PIL import Image
 import torch.nn.functional as F
+import os        
+import gdown
 
 # ==========================================
 # 1. KONFIGURASI HALAMAN
@@ -59,12 +61,15 @@ data_transform = transforms.Compose([
 # ==========================================
 @st.cache_resource
 def load_model():
-
+    # -----------------------------------------------------------
+    # GANTI ID INI DENGAN ID FILE GOOGLE DRIVE ANDA!
+    # -----------------------------------------------------------
     
     file_id = '1FxaBs9H7YG6HJP0XIlHVQXtEr166o2r7'
     
     output_model_file = 'best_emotion_model.pth'
     
+    # Cek apakah file sudah ada? Jika belum, download dulu
     if not os.path.exists(output_model_file):
         url = f'https://drive.google.com/uc?id={file_id}'
         st.warning("Sedang mengunduh model dari Google Drive... (Hanya sekali)")
