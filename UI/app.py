@@ -62,7 +62,7 @@ data_transform = transforms.Compose([
 @st.cache_resource
 def load_model():
     # -----------------------------------------------------------
-    # GANTI ID INI DENGAN ID FILE GOOGLE DRIVE ANDA!
+    # GANTI ID INI DENGAN ID FILE GOOGLE DRIVE ANDA
     # -----------------------------------------------------------
     
     file_id = '1FxaBs9H7YG6HJP0XIlHVQXtEr166o2r7'
@@ -128,13 +128,13 @@ if model is not None:
     # Variabel untuk menampung gambar dari salah satu sumber
     final_image = None
     
-    # === TAB 1: UPLOAD FILE ===
+    # === TAB 1 UPLOAD FILE ===
     with tab1:
         uploaded_file = st.file_uploader("Pilih gambar...", type=["jpg", "jpeg", "png"])
         if uploaded_file is not None:
             final_image = Image.open(uploaded_file)
 
-    # === TAB 2: KAMERA ===
+    # === TAB 2 KAMERA ===
     with tab2:
         camera_input = st.camera_input("Ambil foto wajah Anda")
         if camera_input is not None:
