@@ -116,14 +116,14 @@ def predict_image(image, model, device):
 # ==========================================
 # 6. UI UTAMA (MODIFIKASI: TAB INPUT)
 # ==========================================
-st.title("🎭 Analisis Ekspresi Wajah")
+st.title("Analisis Ekspresi Wajah")
 st.write("Gunakan **Upload Gambar** atau **Kamera Langsung** untuk mendeteksi emosi.")
 
 model, device = load_model()
 
 if model is not None:
     # Buat Tab agar UI rapi
-    tab1, tab2 = st.tabs(["📁 Upload File", "📷 Ambil Foto"])
+    tab1, tab2 = st.tabs(["Upload File", "Ambil Foto"])
 
     # Variabel untuk menampung gambar dari salah satu sumber
     final_image = None
