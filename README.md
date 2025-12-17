@@ -128,12 +128,6 @@ Model yang digunakan adalah **ResNet50** dengan pendekatan **Fine-Tuning**.
   * Linear Layer (512 neuron)
   * Output Layer (7 neuron sesuai jumlah kelas emosi)
 
-### 📊 Performa Model
-
-* **Akurasi Training:** `[Isi dengan akurasi training Anda, contoh: 98%]`
-* **Akurasi Validasi:** `[Isi dengan akurasi validasi Anda, contoh: 65%]`
-
-
 
 Project ini dibuat untuk memenuhi tugas mata kuliah **Kecerdasan Buatan (Artificial Intelligence)**.
 
