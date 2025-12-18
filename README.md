@@ -4,6 +4,12 @@ Project ini merupakan aplikasi berbasis **Artificial Intelligence (AI)** untuk m
 
 Aplikasi dikembangkan menggunakan **PyTorch** dengan arsitektur **ResNet50** serta dilengkapi antarmuka web interaktif berbasis **Streamlit**.
 
+**Anggota Kelompok 2:**
+1. 2408107010043 - M. Ilham
+2. 2408107010044 - Teuku Fikram Al Syahbanna
+3. 2408107010055 - Muhammad Azlan Syahkam
+4. 2408107010096 - Muhammad Shidqi Hanif
+5. 2408107010101 - Muhammad Razi Siregar
 ---
 
 ## 📋 Deskripsi Singkat
@@ -136,3 +142,4 @@ Project ini dibuat untuk memenuhi tugas mata kuliah **Kecerdasan Buatan (Artific
 
 * Pastikan wajah terlihat **jelas**, **menghadap kamera**, dan memiliki **pencahayaan yang cukup** agar hasil prediksi lebih akurat.
 * Bagian yang berada di dalam tanda kurung siku `[ ... ]` wajib disesuaikan dengan data asli Anda sebelum dipublikasikan.
+* **Lampiran model:** https://drive.google.com/drive/folders/18rzl6rNS6CZK6JtRJ8AzIfhK2A5r53ZC
